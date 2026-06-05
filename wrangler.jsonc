@@ -8,15 +8,15 @@
     ],
     "kv_namespaces": [
         {
-            "binding": "OSU_API",
+            "binding": "",
             "id": "4c393a66c157468282b7e336b1627cd6"
         },
         {
-            "binding": "BEATMAP_SETS",
+            "binding": "",
             "id": "e24512f619c648009717ac1c53a9f685"
         },
         {
-            "binding": "BEATMAP_SET_DATA",
+            "binding": "",
             "id": "db5d38d39f9b497f994b4783b226b338"
         }
     ],
