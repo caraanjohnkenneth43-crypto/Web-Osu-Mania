@@ -6,6 +6,25 @@
     "compatibility_flags": [
         "nodejs_compat"
     ],
+    "kv_namespaces": [
+        {
+            "binding": "OSU_API",
+            "id": "7fc453a42b9a49fb95255d66ad4eb1af"
+        },
+        {
+            "binding": "BEATMAP_SETS",
+            "id": "2d5e88160aaf4c0b9158a13d93750a3d"
+        },
+        {
+            "binding": "BEATMAP_SET_DATA",
+            "id": "8cd33aeba07f4d9fa8a01d779c3d7ea7"
+        }
+    ],
+    "vars": {
+        "OSU_API_CLIENT_ID": "59215",
+        "OSU_API_CLIENT_SECRET": "vM7NqRB3pVwjL3PkS1BVMDIi7gcjYNA6UIS0kbD3",
+        "TRUST_CF_CONNECTING_IP": "true"
+    },
     "migrations": [
         {
             "tag": "v1",
