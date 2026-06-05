@@ -6,20 +6,6 @@
     "compatibility_flags": [
         "nodejs_compat"
     ],
-    "kv_namespaces": [
-        {
-            "binding": "",
-            "id": "4c393a66c157468282b7e336b1627cd6"
-        },
-        {
-            "binding": "",
-            "id": "e24512f619c648009717ac1c53a9f685"
-        },
-        {
-            "binding": "",
-            "id": "db5d38d39f9b497f994b4783b226b338"
-        }
-    ],
     "migrations": [
         {
             "tag": "v1",
@@ -32,7 +18,7 @@
             "deleted_classes": [
                 "ApiRateLimit"
             ]
-        },
+        }
     ],
     "observability": {
         "logs": {
