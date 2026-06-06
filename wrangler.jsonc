@@ -21,8 +21,8 @@
         }
     ],
     "vars": {
-        "OSU_API_CLIENT_ID": "59215",
-        "OSU_API_CLIENT_SECRET": "vM7NqRB3pVwjL3PkS1BVMDIi7gcjYNA6UIS0kbD3",
+"OSU_API_CLIENT_ID": "59221",
+"OSU_API_CLIENT_SECRET": "cbuneirxUhE9VS2uh0WCrr6Zk6Pf0Q0wIXbsvhFq",
         "TRUST_CF_CONNECTING_IP": "true"
     },
     "migrations": [

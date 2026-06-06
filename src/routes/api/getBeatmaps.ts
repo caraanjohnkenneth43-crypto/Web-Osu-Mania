@@ -45,14 +45,12 @@ export const Route = createFileRoute("/api/getBeatmaps")({
 
         const requestUrl = new URL(request.url);
 
-        // Params are forwarded to the osu API endpoint
         const params = new URLSearchParams(requestUrl.search);
         const keysToDelete = Array.from(params.keys()).filter(
           (key) => !KEEP_KEYS.has(key),
         );
         keysToDelete.forEach((key) => params.delete(key));
 
-        // Sort so the keys are in consistent order for caching
         params.sort();
 
         const cacheKey = params.toString();
@@ -112,7 +110,6 @@ export const Route = createFileRoute("/api/getBeatmaps")({
             "An unknown error occurred.";
 
           if (response.status === 429) {
-            // Block for 5 minutes as default
             const expiration = Math.ceil(
               Date.now() / 1000 + (Number(retryAfter) || 300),
             );
