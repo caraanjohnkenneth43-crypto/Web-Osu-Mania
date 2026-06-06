@@ -24,7 +24,7 @@ function getClientIp(req: Request): string {
 export function rateLimit(
   req: Request,
   { limit, windowMs }: RateLimitOptions = {
-    limit: 25,
+    limit: 100,
     windowMs: 60000, // 1 minute
   },
 ): boolean {

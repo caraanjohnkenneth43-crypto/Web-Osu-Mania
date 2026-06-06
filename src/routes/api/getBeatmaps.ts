@@ -111,7 +111,7 @@ export const Route = createFileRoute("/api/getBeatmaps")({
 
           if (response.status === 429) {
             const expiration = Math.ceil(
-              Date.now() / 1000 + (Number(retryAfter) || 300),
+              Date.now() / 1000 + (Number(retryAfter) || 30),
             );
 
             console.log({ expiration });

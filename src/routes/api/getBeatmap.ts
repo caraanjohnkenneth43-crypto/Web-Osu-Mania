@@ -85,7 +85,7 @@ export const Route = createFileRoute("/api/getBeatmap")({
           if (response.status === 429) {
             // Block for 5 minutes as default
             const expiration = Math.ceil(
-              Date.now() / 1000 + (Number(retryAfter) || 300),
+              Date.now() / 1000 + (Number(retryAfter) || 30),
             );
 
             console.log({ expiration });
